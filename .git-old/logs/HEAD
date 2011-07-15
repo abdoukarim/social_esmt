@@ -1,0 +1,33 @@
+0000000000000000000000000000000000000000 4ec90095778e61eceac28b4a3b2074e3d5b219db KANDJI <karim_155@hotmail.com> 1304943712 +0000	commit (initial): Le commit initial du reseau social
+4ec90095778e61eceac28b4a3b2074e3d5b219db b5566387782b58b562737931641c8ddbc0f9940a KANDJI <karim_155@hotmail.com> 1304943962 +0000	commit: Improved the README
+b5566387782b58b562737931641c8ddbc0f9940a b5566387782b58b562737931641c8ddbc0f9940a KANDJI <karim_155@hotmail.com> 1304971337 +0000	checkout: moving from master to static-pages
+b5566387782b58b562737931641c8ddbc0f9940a 69bedf473c2a1084bf8dbc17b2d9b28d656e07ea KANDJI <karim_155@hotmail.com> 1304973143 +0000	commit: Added a Pages controller
+69bedf473c2a1084bf8dbc17b2d9b28d656e07ea a718393c90476664c23273c83836d7246cd17dff KANDJI <karim_155@hotmail.com> 1305058425 +0000	commit: Done with static pages
+a718393c90476664c23273c83836d7246cd17dff b5566387782b58b562737931641c8ddbc0f9940a KANDJI <karim_155@hotmail.com> 1305058457 +0000	checkout: moving from static-pages to master
+b5566387782b58b562737931641c8ddbc0f9940a a718393c90476664c23273c83836d7246cd17dff KANDJI <karim_155@hotmail.com> 1305058466 +0000	merge static-pages: Fast-forward
+a718393c90476664c23273c83836d7246cd17dff a718393c90476664c23273c83836d7246cd17dff KANDJI <karim_155@hotmail.com> 1305144994 +0000	checkout: moving from master to filling-in-layout
+a718393c90476664c23273c83836d7246cd17dff c00fcc6bc11ff2bf9517037f623a7cbccae1126f KANDJI <karim_155@hotmail.com> 1305586512 +0000	commit: Removed default Rails page
+c00fcc6bc11ff2bf9517037f623a7cbccae1126f f490fa29ce9220b6debc95d2b46ff564c7c1c871 KANDJI <karim_155@hotmail.com> 1305588563 +0000	commit: Finished layout and routes
+f490fa29ce9220b6debc95d2b46ff564c7c1c871 a718393c90476664c23273c83836d7246cd17dff KANDJI <karim_155@hotmail.com> 1305588582 +0000	checkout: moving from filling-in-layout to master
+a718393c90476664c23273c83836d7246cd17dff f490fa29ce9220b6debc95d2b46ff564c7c1c871 KANDJI <karim_155@hotmail.com> 1305588592 +0000	merge filling-in-layout: Fast-forward
+f490fa29ce9220b6debc95d2b46ff564c7c1c871 83bf49b5404ed45d3f21a26bc5cce3e971416ee1 KANDJI <karim_155@hotmail.com> 1305670528 +0000	commit: Site en construction
+83bf49b5404ed45d3f21a26bc5cce3e971416ee1 83bf49b5404ed45d3f21a26bc5cce3e971416ee1 KANDJI <karim_155@hotmail.com> 1305670547 +0000	checkout: moving from master to master
+83bf49b5404ed45d3f21a26bc5cce3e971416ee1 83bf49b5404ed45d3f21a26bc5cce3e971416ee1 KANDJI <karim_155@hotmail.com> 1305755529 +0000	checkout: moving from master to master
+83bf49b5404ed45d3f21a26bc5cce3e971416ee1 83bf49b5404ed45d3f21a26bc5cce3e971416ee1 KANDJI <karim_155@hotmail.com> 1305755568 +0000	checkout: moving from master to modeling-users
+83bf49b5404ed45d3f21a26bc5cce3e971416ee1 21fb844be91192de9f9724d55fc791316e58af70 KANDJI <karim_155@hotmail.com> 1306543636 +0000	commit: Finished first cut of the User model
+21fb844be91192de9f9724d55fc791316e58af70 3903df30e17d2871b027565458a459fc130be37f KANDJI <karim_155@hotmail.com> 1308670333 +0000	commit: User model with passwords, and user show page
+3903df30e17d2871b027565458a459fc130be37f 83bf49b5404ed45d3f21a26bc5cce3e971416ee1 KANDJI <karim_155@hotmail.com> 1308670349 +0000	checkout: moving from modeling-users to master
+83bf49b5404ed45d3f21a26bc5cce3e971416ee1 3903df30e17d2871b027565458a459fc130be37f KANDJI <karim_155@hotmail.com> 1308670365 +0000	merge modeling-users: Fast-forward
+3903df30e17d2871b027565458a459fc130be37f 3903df30e17d2871b027565458a459fc130be37f KANDJI <karim_155@hotmail.com> 1309183627 +0000	checkout: moving from master to master
+3903df30e17d2871b027565458a459fc130be37f 3903df30e17d2871b027565458a459fc130be37f KANDJI <karim_155@hotmail.com> 1309183658 +0000	checkout: moving from master to signing-up
+3903df30e17d2871b027565458a459fc130be37f 0ecdb6dfc5d12b1a69998b2f410988391cba437c KANDJI <karim_155@hotmail.com> 1309357472 +0000	commit: User signup complete
+0ecdb6dfc5d12b1a69998b2f410988391cba437c 3903df30e17d2871b027565458a459fc130be37f KANDJI <karim_155@hotmail.com> 1309357483 +0000	checkout: moving from signing-up to master
+3903df30e17d2871b027565458a459fc130be37f 0ecdb6dfc5d12b1a69998b2f410988391cba437c KANDJI <karim_155@hotmail.com> 1309357492 +0000	merge signing-up: Fast-forward
+0ecdb6dfc5d12b1a69998b2f410988391cba437c 0ecdb6dfc5d12b1a69998b2f410988391cba437c KANDJI <karim_155@hotmail.com> 1309610922 +0000	checkout: moving from master to sign-in-out
+0ecdb6dfc5d12b1a69998b2f410988391cba437c bcf54d1bf60cad5afe4730d6ac223fc81caf8d22 KANDJI <karim_155@hotmail.com> 1310127925 +0000	commit: Done with sign in
+bcf54d1bf60cad5afe4730d6ac223fc81caf8d22 0ecdb6dfc5d12b1a69998b2f410988391cba437c KANDJI <karim_155@hotmail.com> 1310127941 +0000	checkout: moving from sign-in-out to master
+0ecdb6dfc5d12b1a69998b2f410988391cba437c bcf54d1bf60cad5afe4730d6ac223fc81caf8d22 KANDJI <karim_155@hotmail.com> 1310127957 +0000	merge sign-in-out: Fast-forward
+bcf54d1bf60cad5afe4730d6ac223fc81caf8d22 bcf54d1bf60cad5afe4730d6ac223fc81caf8d22 KANDJI <karim_155@hotmail.com> 1310564487 +0000	checkout: moving from master to updating-users
+bcf54d1bf60cad5afe4730d6ac223fc81caf8d22 26e9b03b15e3ba96253b76553e2b6264f2ddc90a KANDJI <karim_155@hotmail.com> 1310748413 +0000	commit: Done with user edit/update, index, and destroy actions
+26e9b03b15e3ba96253b76553e2b6264f2ddc90a bcf54d1bf60cad5afe4730d6ac223fc81caf8d22 KANDJI <karim_155@hotmail.com> 1310748426 +0000	checkout: moving from updating-users to master
+bcf54d1bf60cad5afe4730d6ac223fc81caf8d22 26e9b03b15e3ba96253b76553e2b6264f2ddc90a KANDJI <karim_155@hotmail.com> 1310748437 +0000	merge updating-users: Fast-forward

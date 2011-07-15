@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--Cette page est en HTML5 !! -->
+<html>
+  <head>
+    <title><%= title %></title>
+    <%= csrf_meta_tag %>
+    <!-- redirection de notre CSS-->
+    <%= render 'layouts/stylesheets'%>
+    <%= javascript_include_tag :defaults %>
+  </head>
+  <body>
+    <!--[Div pour Le contenu de la page il ne faut pas modifier le mot cle "Container" 
+    qui est indispensable pour le framework CSS 'Blueprint', voir le "README" du Blueprint
+    pour plus d'informations]-->
+    <div class="container">
+      <!-- redirection de notre code HTML pour la balise header -->
+      <%= render 'layouts/header'%>
+      <%= debug(params) if Rails.env.development? %>
+      <section class="round">
+        <% flash.each do |key, value| %>
+          <div class="flash <%= key %>"><%= value %></div>
+        <% end %>
+        <%= yield %>
+      </section>
+      <!-- redirection de notre code HTML pour la balise 'footer' pour le pied de page -->
+      <%= render 'layouts/footer'%>
+    </div>
+  </body>
+</html>

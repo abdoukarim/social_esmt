@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 a718393c90476664c23273c83836d7246cd17dff KANDJI <karim_155@hotmail.com> 1305144994 +0000	branch: Created from HEAD
+a718393c90476664c23273c83836d7246cd17dff c00fcc6bc11ff2bf9517037f623a7cbccae1126f KANDJI <karim_155@hotmail.com> 1305586512 +0000	commit: Removed default Rails page
+c00fcc6bc11ff2bf9517037f623a7cbccae1126f f490fa29ce9220b6debc95d2b46ff564c7c1c871 KANDJI <karim_155@hotmail.com> 1305588563 +0000	commit: Finished layout and routes

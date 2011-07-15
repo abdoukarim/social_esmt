@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:abdoukarim/social_esmt.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "heroku"]
+	url = git@heroku.com:strong-cloud-920.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
