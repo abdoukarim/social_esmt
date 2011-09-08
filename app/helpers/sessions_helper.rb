@@ -36,6 +36,15 @@ module SessionsHelper
     clear_return_to
   end
   
+  def authenticate
+    deny_access unless signed_in?
+  end
+
+  def deny_access
+    store_location
+    redirect_to signin_path, :notice => "Vous devez vous connecter pour acceder a cette page."
+  end
+  
   private
 
     def user_from_remember_token
