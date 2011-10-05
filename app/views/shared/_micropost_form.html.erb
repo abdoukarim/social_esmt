@@ -1,7 +1,23 @@
+
+<script type="text/javascript"> 
+function setbg(color)
+{
+  document.getElementById("styled").style.background = color
+}
+</script>
+
 <%= form_for @micropost do |f| %>
   <%= render 'shared/error_messages', :object => f.object %>
   <div class="field">
-    <%= f.text_area :content %>
+    caracteres restants : <span id="counter"><%= maxcounter=140 %></span>
+    <%= f.text_area :content,
+        :maxlength  => maxcounter,
+        :id         => "styled",
+        :onfocus    => "this.value=''; setbg('#e5fff3');",
+        :onblur     => "setbg('white')",
+         :onkeyup   => "$('counter').update(#{maxcounter}
+        -this.value.strip().length)"
+  -%>
   </div>
   <div class="actions">
     <%= f.submit "Poster!" %>

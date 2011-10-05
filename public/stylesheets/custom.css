@@ -249,7 +249,27 @@ form.new_micropost {
   margin-bottom: 2em;
 }
 
-form.new_micropost textarea {
+/*form.new_micropost textarea {
   height: 4em;
   margin-bottom: 0;
+  }*
+
+/* style du texte area du micropost 
+;textarea#styled {
+*/
+
+
+form.new_micropost {
+  margin-bottom: 2em;
+}
+
+form.new_micropost textarea{
+  /*width: 600px;*/
+        height: 4em;
+        border: 3px solid #cccccc;
+        padding: 5px;
+        font-family: Tahoma, sans-serif;
+        background-image: url(bg.gif);
+        background-position: bottom right;
+        background-repeat: no-repeat;
 }
